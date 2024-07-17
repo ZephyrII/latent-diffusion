@@ -8,7 +8,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 
 [tool.setuptools]
-packages = ["ldm"]
+packages = ["ldm", "ldm.models", "ldm.models.diffusion"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
